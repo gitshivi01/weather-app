@@ -40,9 +40,9 @@ const handleClick=() => {
       {weather && (<>
       <div className="weather-info">
         <h3>{ weather.data.name}</h3>
-        <p>Temperature: {weather.data.main.temp}</p>
+        <p>Temperature: {weather.data.main.temp}°C</p>
         <p>Humidity: {weather.data.main.humidity}%</p>
-        <p>Wind Speed: {weather.data.wind.speed} m/s</p>
+        <p>Wind Speed: {weather.data.wind.speed}m/s</p>
          <p>{weather.data.weather[0].description}</p>
         </div>
          </>)}
